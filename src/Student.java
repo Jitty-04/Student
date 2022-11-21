@@ -26,6 +26,18 @@ public class Student {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
             switch (n) {
+                case 1:
+                    System.out.println("Enter name");
+                    String name = sc.next();
+                    System.out.println("Enter Roll number ");
+                    int roll = sc.nextInt();
+                    System.out.println("Enter Admission number");
+                    String admn = sc.next();
+                    System.out.println("Enter College");
+                    String college = sc.next();
+                    Stud e = new Stud(name, roll, admn, college);
+                    arr.add(e);
+                    break;
             }
         }
     }
